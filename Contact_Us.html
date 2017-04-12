@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="百度地图,百度地图API，百度地图自定义工具，百度地图所见即所得工具" />
+    <meta name="description" content="百度地图API自定义地图，帮助用户在可视化操作下生成百度地图" />
+    <title>南阳金冠电器有限公司</title>
+    <!--引用百度地图API-->
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=AyEXzCyOlRh5cDE1GlF5lGslxVFP3l1q"></script>
+
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/nyjinguan_style.css">
+  <link rel="stylesheet" href="css/about_us.css">
+  <link rel="stylesheet" href="css/Contact_Us.css">
+  </head>
+  <body>
+
+    
+    <!-- 头部部分 -->
+  <div class="top">
+    <div class="top_hid"></div>
+    <div class="top_box clearfix">
+      <!-- logo部分 -->
+      <div class="logo fl">
+        <a href="http://www.nyjinguan.com/Home/menu" target="_blank">
+          <img src="img/1479723274.png" alt="">
+        </a>
+      </div>
+      <!-- 导航栏部分 -->
+      <div class="nav fl">
+        <ul>
+          <li class="home">
+            <a href="nyjinguan.html"></a>
+          </li>
+          <li>
+            <a href="About_Us.html">关于金冠</a>
+            <p>
+              <a href="About_Us.html">公司简介</a>
+              <a href="#">企业文化</a>
+              <a href="#">发展历程</a>
+              <a href="#">金冠咨询</a>
+              <a href="#">管理学院</a>
+              <a href="#">人才招聘</a>
+            </p>
+          </li>
+          <li>
+            <a href="arrester.html">避雷器</a>
+            <p>
+              <a href="arrester.html">特高压避雷器</a>
+              <a href="#">瓷外套避雷器</a>
+              <a href="#">动车组避雷器</a>
+              <a href="#">复合外套避雷器</a>
+              <a href="#">GIS用罐式避雷器</a>
+              <a href="#">在线监听器</a>
+            </p>
+          </li>
+          <li>
+            <a href="SmartDN.html">智能电网</a>
+            <p>
+              <a href="#">高低压成套产品</a>
+              <a href="#">无功补偿类产品</a>
+              <a href="#">低电压治理产品</a>
+              <a href="#">计量类产品</a>
+              <a href="#">电缆分支箱</a>
+              <a href="#">高压元器件</a>
+              <a href="#">变压器类产品</a>
+            </p>
+          </li>
+          <li>
+            <a href="BOSE.html">新能源</a>
+            <p>
+              <a href="#">售电业务</a>
+              <a href="#">微网</a>
+              <a href="#">光伏</a>
+              <a href="#">充电网络</a>
+              <a href="#">逆变器</a>
+            </p>
+          </li>
+          <li>
+            <a href="Customer_Service.html">客户服务</a>
+            <p>
+              <a href="#">销售网络</a>
+              <a href="#">采购合作</a>
+            </p>
+          </li>
+          <li>
+            <a href="Contact_Us.html">联系我们</a>
+            <p>
+              <a href="#">联系方式</a>
+              <a href="#">客户留言</a>
+            </p>
+          </li>
+        </ul>
+      </div>
+      <!-- 搜索部分 -->
+      <div class="search fl">
+        <span></span>
+        <form action="" class="clearfix">
+          <input type="text" placeholder="请输入关键字">
+          <input type="submit" value="搜索">
+        </form>
+      </div>
+      <!-- 页面语言部分 -->
+      <div class="language fr">
+        <span>CN</span>
+        <p>
+          <a href="#">CN</a>
+          <a href="#">EN</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- 导航栏部分 -->
+  <div class="header_img">
+    <div class="header_nav center_box clearfix">
+      <span>联系我们<i></i></span>
+      <div>
+        <ul class="fl clearfix">
+          <li><a href="#">联系方式</a></li>
+          <li><a href="#">客户留言</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- 内容部分 -->
+  <div class="about_us_content center_box">
+    <div class="about_us_content1 clearfix">
+      联系我们
+      <span class="clearfix">
+        <a href="#"></a>>
+        <a href="#">联系我们</a>>
+        <i>联系我们</i>
+      </span>
+    </div>
+  </div>
+
+
+    <!--百度地图容器-->
+    <div style="width:1200px;height:439px;border:#ccc solid 1px;font-size:12px" id="map" class="center_box"></div>
+
+  <div class="CU_cont2 center_box clearfix">
+      <div class="CU_cont2_l fl">
+        <p>服务热线 :</p>
+        <p>
+            <img src="img/tel.jpg" alt="">
+            0377-61638666
+        </p>
+        <p>南阳金冠电气有限公司欢迎各位致电咨询！！</p>
+      </div>
+      <div class="CU_cont2_r fr clearfix">
+        <p class="fl">
+          <img src="img/ewm.jpg" alt=""><br>
+          微信平台
+        </p>
+        <div class="share_box fl">
+          <p>分享：</p>
+          <div class="share clearfix">
+            <a href="#" style="background-position: 0 -104px"></a>
+            <a href="#" style="background-position: 0 -260px"></a>
+            <a href="#" style="background-position: 0 -2652px"></a>
+            <a href="#" style="background-position: 0 -1612px"></a>
+            <a href="#" style="background-position: 0 -468px"></a>
+            <a href="#" style="background-position: 0 -52px"></a>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="CU_cont3 center_box clearfix">
+     <div>联系方式</div>
+      <p>总机电话：0377-61638666</p>
+      <p>地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;址：河南 南阳市高新技术开发区</p>
+      <p>传真号码：0377-61635555</p>
+      <p>邮政编码：473000</p>
+      <p>工作时间：上午9:00-12:00,下午13:00-17-00</p>
+  </div>
+
+  <!-- 底部部分 -->
+  <div class="footer">
+    <div class="footer_center  clearfix">
+      <div class="footer_l">
+        <h3>南阳金冠电气有限公司</h3>
+        <p>
+          <img src="img/b01.jpg" alt="">
+          电话：0377-61638666
+        </p>
+        <p>
+          <img src="img/b02.jpg" alt="">
+          传真：0377-61635555
+        </p>
+        <p>
+          <img src="img/b03.jpg" alt="">
+           Email：nyjgdq@163.com
+        </p>
+        <p>
+          <img src="img/b04.jpg" alt="">
+          地址：中国·河南 南阳市高新技术开发区
+        </p>
+      </div>
+      <div class="footer_m">
+        <ul class="clearfix">
+          <li><a href="#">关于金冠</a></li>
+          <li><a href="#">避雷器</a></li>
+          <li><a href="#">智能配电网</a></li>
+          <li><a href="#">新能源</a></li>
+          <li><a href="#">客户服务</a></li>
+          <li><a href="#">联系我们</a></li>
+        </ul>
+      </div>
+      <span>
+        <img src="img/ewm.jpg" alt=""><p>关注金冠电气微信平台</p>
+      </span>
+    </div>
+    <div class="footer_b">
+      南阳金冠电气有限公司 Copyright 2016 ©版权所有
+    </div>
+  </div>
+  <!-- 右侧固定部分 -->
+  <div class="right_fixed">
+      <a href="#">
+        <img src="img/f02.png" alt="">联系我们
+      </a>
+      <a href="#">
+        <img src="img/f03.png" alt="">咨询我们
+      </a>
+      <div>
+        <img src="img/f04.png" alt="">
+        <p>
+          <img src="img/ewm.jpg" alt="">
+        </p>
+      </div>
+      <a href="#" class="last_a">
+        <img src="img/f05.png" alt="">
+      </a>  
+  </div>
+  </body>
+  <script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+      createMap();//创建地图
+      setMapEvent();//设置地图事件
+      //addMapControl();//向地图添加控件
+      addMapOverlay();//向地图添加覆盖物
+    }
+    function createMap(){ 
+      map = new BMap.Map("map"); 
+      map.centerAndZoom(new BMap.Point(112.573869,33.036698),18);
+    }
+    function setMapEvent(){
+      map.enableScrollWheelZoom();
+      map.enableKeyboard();
+      map.enableDragging();
+      map.enableDoubleClickZoom()
+    }
+    function addClickHandler(target,window){
+      target.addEventListener("click",function(){
+        target.openInfoWindow(window);
+      });
+    }
+    function addMapOverlay(){
+      var markers = [
+        {content:"",title:"",imageOffset: {width:-46,height:-21},position:{lat:33.036826,lng:112.574372}}
+      ];
+      for(var index = 0; index < markers.length; index++ ){
+        var point = new BMap.Point(markers[index].position.lng,markers[index].position.lat);
+        var marker = new BMap.Marker(point,{icon:new BMap.Icon("http://api.map.baidu.com/lbsapi/createmap/images/icon.png",new BMap.Size(20,25),{
+          imageOffset: new BMap.Size(markers[index].imageOffset.width,markers[index].imageOffset.height)
+        })});
+        //var label = new BMap.Label(markers[index].title,{offset: new BMap.Size(25,5)});
+        var opts = {
+          width: 200,
+          title: markers[index].title,
+          enableMessage: false
+        };
+        var infoWindow = new BMap.InfoWindow(markers[index].content,opts);
+        //marker.setLabel(label);
+        addClickHandler(marker,infoWindow);
+        map.addOverlay(marker);
+      };
+    }
+    //向地图添加控件
+    function addMapControl(){
+      var navControl = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:3});
+      // map.addControl(navControl);
+    }
+    var map;
+      initMap();
+  </script>
+</html>

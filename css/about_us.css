@@ -1,0 +1,142 @@
+.center_box{
+	width: 1200px;
+	margin: 0 auto;
+	height: 100%;
+}
+.top{
+	background-color: #fff;
+}
+/*导航栏部分*/
+.header_img{
+	margin-top: 66px;
+	width: 100%;
+	height: 297px;
+	position: relative;
+	background-image: url(../img/t03.jpg);
+	border-bottom: 3px solid #eee;
+}
+.header_nav{
+	position: absolute;
+	bottom: 0;
+	height: 65px;
+	left: 18%;
+}
+.header_nav>span{
+	float: left;
+	left: 0;
+	width: 12.5%;
+	padding-left: 25px;
+	line-height: 65px;
+	background: #04574d url(../img/jg.jpg) right center no-repeat;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	position: relative;
+}
+.header_nav>span>i{
+	display: block;
+	width: 7px;
+	height: 16px;
+	background: url(../img/fz.jpg) 0 0 no-repeat;
+	position: absolute;
+	right: -7px;
+	top: 38%;
+}
+.header_nav>div{
+	height: 100%;
+	width: 85.4%;
+	float: right;
+	background: #fff;
+}
+.header_nav>div>ul{
+	width: 100%;
+}
+.header_nav>div>ul>li{
+	float: left;
+	padding: 0 10px;
+	height: 100%;
+	margin-left: 2.8%;
+}
+.header_nav>div>ul>li>a{
+	display: block;
+	font-size: 16px;
+	height: 65px;
+	line-height: 65px;
+}
+.header_nav>div>ul>li:nth-of-type(1)>a{
+	border-bottom: 3px solid #f5a21c;
+	color: #f5a21c;
+}
+.header_nav>div>ul>li:hover>a{
+	color: #f5a21c;
+}
+/*内容部分*/
+.about_us_content1{
+	height: 80px;
+	line-height: 80px;
+	padding-top: 20px;
+	border-bottom: 1px solid #e5e5e5;
+	color: #04574d;
+	font-size: 26px;
+}
+.about_us_content1>span{
+	float: right;
+	font-weight: normal;
+	font-size: 12px;
+}
+.about_us_content1>span>a:nth-of-type(1){
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	vertical-align: middle;
+	background: url(../img/home.jpg);
+}
+.about_us_content1>span>a{
+	margin: 0 15px;
+}
+.about_us_content1>span>a:nth-of-type(2):hover{
+	color: #f5a21c;
+}
+.about_us_content1>span>i{
+	font-style: normal;
+	margin-left: 15px;
+}
+.about_us_content>p:nth-of-type(1){
+	height: 113px;
+	padding-top: 10px;
+	background: url(../img/v.jpg) center center no-repeat;
+	font-size: 30px;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+	margin-top: 30px;
+}
+.text1{
+	padding: 40px 0;
+	font-size: 14px;
+	line-height: 2;
+}
+.text1>p{
+	text-indent: 2em;
+}
+.text2_img{
+	float: left;
+	margin-right: 10px;
+	font-size: 24px;
+	text-align: center;
+}
+.text{
+	border-bottom: 1px solid #ddd;
+	padding: 30px 0;
+	font-size: 14px;
+	line-height: 2;
+}
+.text>p:first-child{
+	text-align: center;
+	font-size: 24px;
+	color: #04574d;
+	padding-bottom: 20px;
+}
+.text>p:not(:first-child){
+	text-indent: 2em;
+}
