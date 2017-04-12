@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="https://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="百度地图,百度地图API，百度地图自定义工具，百度地图所见即所得工具" />
     <meta name="description" content="百度地图API自定义地图，帮助用户在可视化操作下生成百度地图" />
     <title>南阳金冠电器有限公司</title>
     <!--引用百度地图API-->
-    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=AyEXzCyOlRh5cDE1GlF5lGslxVFP3l1q"></script>
+    <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=AyEXzCyOlRh5cDE1GlF5lGslxVFP3l1q"></script>
 
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/nyjinguan_style.css">
@@ -22,7 +22,7 @@
     <div class="top_box clearfix">
       <!-- logo部分 -->
       <div class="logo fl">
-        <a href="http://www.nyjinguan.com/Home/menu" target="_blank">
+        <a href="https://www.nyjinguan.com/Home/menu" target="_blank">
           <img src="img/1479723274.png" alt="">
         </a>
       </div>
@@ -262,7 +262,7 @@
       ];
       for(var index = 0; index < markers.length; index++ ){
         var point = new BMap.Point(markers[index].position.lng,markers[index].position.lat);
-        var marker = new BMap.Marker(point,{icon:new BMap.Icon("http://api.map.baidu.com/lbsapi/createmap/images/icon.png",new BMap.Size(20,25),{
+        var marker = new BMap.Marker(point,{icon:new BMap.Icon("https://api.map.baidu.com/lbsapi/createmap/images/icon.png",new BMap.Size(20,25),{
           imageOffset: new BMap.Size(markers[index].imageOffset.width,markers[index].imageOffset.height)
         })});
         //var label = new BMap.Label(markers[index].title,{offset: new BMap.Size(25,5)});
