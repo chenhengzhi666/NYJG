@@ -140,3 +140,6 @@
 .text>p:not(:first-child){
 	text-indent: 2em;
 }
+.right_fixed>div>p>img {
+    left: -185px;
+}
